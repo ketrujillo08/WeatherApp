@@ -1,12 +1,12 @@
 var React = require('react');
 
-var About = (props)=>{
-	 return (
-      <div>
-      	<h3>Acerca de</h3>
-      	<p>Esta es la sección de acerca de...</p>
-      </div>
-    )
+var About = (props) => {
+  return (
+    <div>
+      <h3>About</h3>
+      <p>Welcome to the about page.</p>
+    </div>
+  )
 };
 
 module.exports = About;
